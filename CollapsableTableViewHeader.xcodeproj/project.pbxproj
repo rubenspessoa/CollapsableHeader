@@ -7,21 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B18E0E7527CF1D244FA55AE /* Pods_CollapsableTableViewHeader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B07453C85D1366F0B05CA22 /* Pods_CollapsableTableViewHeader.framework */; };
+		AF6CBB1B2045D4B8001497AB /* CollapsableHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6CBB192045D4B8001497AB /* CollapsableHeaderViewController.swift */; };
 		AF9F30EF203C8DDF00CE4756 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9F30EE203C8DDF00CE4756 /* AppDelegate.swift */; };
-		AF9F30F1203C8DDF00CE4756 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9F30F0203C8DDF00CE4756 /* ViewController.swift */; };
-		AF9F30F4203C8DDF00CE4756 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF9F30F2203C8DDF00CE4756 /* Main.storyboard */; };
 		AF9F30F6203C8DDF00CE4756 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF9F30F5203C8DDF00CE4756 /* Assets.xcassets */; };
 		AF9F30F9203C8DDF00CE4756 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF9F30F7203C8DDF00CE4756 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2600F84051B16C395DAB8F28 /* Pods-CollapsableTableViewHeader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollapsableTableViewHeader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CollapsableTableViewHeader/Pods-CollapsableTableViewHeader.debug.xcconfig"; sourceTree = "<group>"; };
+		7B07453C85D1366F0B05CA22 /* Pods_CollapsableTableViewHeader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CollapsableTableViewHeader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6CBB192045D4B8001497AB /* CollapsableHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsableHeaderViewController.swift; sourceTree = "<group>"; };
 		AF9F30EB203C8DDF00CE4756 /* CollapsableTableViewHeader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollapsableTableViewHeader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF9F30EE203C8DDF00CE4756 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF9F30F0203C8DDF00CE4756 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AF9F30F3203C8DDF00CE4756 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF9F30F5203C8DDF00CE4756 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF9F30F8203C8DDF00CE4756 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF9F30FA203C8DDF00CE4756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF93CA20DA928D1B89E23EDD /* Pods-CollapsableTableViewHeader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollapsableTableViewHeader.release.xcconfig"; path = "Pods/Target Support Files/Pods-CollapsableTableViewHeader/Pods-CollapsableTableViewHeader.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +31,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B18E0E7527CF1D244FA55AE /* Pods_CollapsableTableViewHeader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B890718744AC9C150212C1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2600F84051B16C395DAB8F28 /* Pods-CollapsableTableViewHeader.debug.xcconfig */,
+				EF93CA20DA928D1B89E23EDD /* Pods-CollapsableTableViewHeader.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1EE75AE818D28E6DF10374B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B07453C85D1366F0B05CA22 /* Pods_CollapsableTableViewHeader.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AF9F30E2203C8DDF00CE4756 = {
 			isa = PBXGroup;
 			children = (
 				AF9F30ED203C8DDF00CE4756 /* CollapsableTableViewHeader */,
 				AF9F30EC203C8DDF00CE4756 /* Products */,
+				0B890718744AC9C150212C1D /* Pods */,
+				1EE75AE818D28E6DF10374B1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +76,45 @@
 		AF9F30ED203C8DDF00CE4756 /* CollapsableTableViewHeader */ = {
 			isa = PBXGroup;
 			children = (
+				AF9F3108203C905500CE4756 /* Supporting Files */,
+				AF9F3104203C902800CE4756 /* Application */,
+			);
+			path = CollapsableTableViewHeader;
+			sourceTree = "<group>";
+		};
+		AF9F3104203C902800CE4756 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				AF9F3105203C903000CE4756 /* Classes */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		AF9F3105203C903000CE4756 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AF9F3107203C904200CE4756 /* CollapsableHeader */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AF9F3107203C904200CE4756 /* CollapsableHeader */ = {
+			isa = PBXGroup;
+			children = (
+				AF6CBB192045D4B8001497AB /* CollapsableHeaderViewController.swift */,
+			);
+			path = CollapsableHeader;
+			sourceTree = "<group>";
+		};
+		AF9F3108203C905500CE4756 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				AF9F30EE203C8DDF00CE4756 /* AppDelegate.swift */,
-				AF9F30F0203C8DDF00CE4756 /* ViewController.swift */,
-				AF9F30F2203C8DDF00CE4756 /* Main.storyboard */,
 				AF9F30F5203C8DDF00CE4756 /* Assets.xcassets */,
 				AF9F30F7203C8DDF00CE4756 /* LaunchScreen.storyboard */,
 				AF9F30FA203C8DDF00CE4756 /* Info.plist */,
 			);
-			path = CollapsableTableViewHeader;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +124,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF9F30FD203C8DDF00CE4756 /* Build configuration list for PBXNativeTarget "CollapsableTableViewHeader" */;
 			buildPhases = (
+				C07FA8BD55256508E6FD832A /* [CP] Check Pods Manifest.lock */,
 				AF9F30E7203C8DDF00CE4756 /* Sources */,
 				AF9F30E8203C8DDF00CE4756 /* Frameworks */,
 				AF9F30E9203C8DDF00CE4756 /* Resources */,
+				3E986ED0DC71F3CDF6B1D0CD /* [CP] Embed Pods Frameworks */,
+				B953B86FCCCFF808E3B927DD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,18 +181,71 @@
 			files = (
 				AF9F30F9203C8DDF00CE4756 /* LaunchScreen.storyboard in Resources */,
 				AF9F30F6203C8DDF00CE4756 /* Assets.xcassets in Resources */,
-				AF9F30F4203C8DDF00CE4756 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E986ED0DC71F3CDF6B1D0CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CollapsableTableViewHeader/Pods-CollapsableTableViewHeader-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CollapsableTableViewHeader/Pods-CollapsableTableViewHeader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B953B86FCCCFF808E3B927DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CollapsableTableViewHeader/Pods-CollapsableTableViewHeader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C07FA8BD55256508E6FD832A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CollapsableTableViewHeader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AF9F30E7203C8DDF00CE4756 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF9F30F1203C8DDF00CE4756 /* ViewController.swift in Sources */,
+				AF6CBB1B2045D4B8001497AB /* CollapsableHeaderViewController.swift in Sources */,
 				AF9F30EF203C8DDF00CE4756 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,14 +253,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AF9F30F2203C8DDF00CE4756 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AF9F30F3203C8DDF00CE4756 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AF9F30F7203C8DDF00CE4756 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,10 +373,11 @@
 		};
 		AF9F30FE203C8DDF00CE4756 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2600F84051B16C395DAB8F28 /* Pods-CollapsableTableViewHeader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CollapsableTableViewHeader/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CollapsableTableViewHeader/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rubenspbf.CollapsableTableViewHeader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,10 +388,11 @@
 		};
 		AF9F30FF203C8DDF00CE4756 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF93CA20DA928D1B89E23EDD /* Pods-CollapsableTableViewHeader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CollapsableTableViewHeader/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CollapsableTableViewHeader/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rubenspbf.CollapsableTableViewHeader;
 				PRODUCT_NAME = "$(TARGET_NAME)";

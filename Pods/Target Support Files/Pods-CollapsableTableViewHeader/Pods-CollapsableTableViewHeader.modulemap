@@ -1,0 +1,6 @@
+framework module Pods_CollapsableTableViewHeader {
+  umbrella header "Pods-CollapsableTableViewHeader-umbrella.h"
+
+  export *
+  module * { export * }
+}
